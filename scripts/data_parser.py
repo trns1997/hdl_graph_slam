@@ -16,12 +16,12 @@ from visualization_msgs.msg import MarkerArray, Marker
 
 def main():
     # Load File
-    folder_path = '/home/dank-engine/3d_ws/pkloud_merge/'
+    folder_path = '/home/dank-engine/3d_ws/json2_merger/'
     path = list(pathlib.Path(folder_path).glob('*.json'))
     start_idx = 700
 
     # for i in range(start_idx, start_idx+len(path)-1):
-    for i in range(400, 800):
+    for i in range(200, 552):
         filename = folder_path + \
             '{i:0{width}}'.format(i=i+1, width=4) + '.json'
         with open(filename, 'r') as f:
