@@ -7,6 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /TF1/Frames1
+        - /MarkerArray1/Namespaces1
       Splitter Ratio: 0.5
     Tree Height: 714
   - Class: rviz/Selection
@@ -73,10 +74,10 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
+          base_link:
+            velodyne:
+              {}
           odom:
-            base_link:
-              velodyne:
-                {}
             keyframe:
               {}
       Update Interval: 0
@@ -98,7 +99,7 @@ Visualization Manager:
       Max Color: 255; 255; 255
       Max Intensity: 255
       Min Color: 0; 0; 0
-      Min Intensity: 0.21637693
+      Min Intensity: 0.509972036
       Name: PointCloud2
       Position Transformer: XYZ
       Queue Size: 10
@@ -208,7 +209,7 @@ Visualization Manager:
       Namespaces:
         edges: true
         imu: true
-        loop_close_radius: true
+        loop_close_radius: false
         nodes: true
       Queue Size: 100
       Value: true
@@ -305,25 +306,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 135.447327
+      Distance: 74.4654999
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 60.556469
-        Y: -26.5589638
-        Z: 46.7417679
+        X: 5.40576982
+        Y: -0.451886743
+        Z: -5.82518578
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 1.17479599
+      Pitch: 0.879796028
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.03354764
+      Yaw: 4.80855179
     Saved: ~
 Window Geometry:
   Displays:
